@@ -1,0 +1,13 @@
+[
+  {
+    "scenarioId": "6036317d3cdea200019fc7eb",
+    "scenarioName": "Change Plan",
+    "buBudgetMap": {
+      "ADC": 3504195.0,
+      "R&D": 100400.0,
+      "IT": 1582900.0,
+      "Marketing": 840400.0,
+      "CRM": 206700.0
+    }
+  }
+]

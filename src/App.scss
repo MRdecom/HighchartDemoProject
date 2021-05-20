@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+  .App-header {
+    background-color: #282c34;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    height: 5vh;
+  }
+
+  .App-block{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+    align-items: center;
+
+    .Data-container{
+      min-width: 280px;
+      margin:24px;
+      .title{
+        background: darkgray;
+        color: white;
+        font-weight: bold;
+        font-size: large;
+        height: 30px;
+        line-height: 30px;
+        padding:10px;
+        overflow:hidden;
+        white-space:nowrap;
+        text-overflow: ellipsis;
+      }
+      .children{
+        display: block;
+        height: -moz-calc(100% - 52px);
+        height: -webkit-calc(100% - 52px);
+        height: calc(100% - 52px);
+        border: 1px solid darkgray;
+
+      }
+    }
+
+    .flex-setting{
+      height: 100%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .Number-of-project{
+      font-size: x-large;
+      font-weight: bolder;
+      color: burlywood;
+    }
+
+    .Required-capacity{
+      font-size: x-large;
+      font-weight: bolder;
+      color: burlywood;
+    }
+
+  }
+  .number-container {
+    height: 100px;
+  }
+  .disk-chart-container{
+
+  }
+  .bar-chart-container{
+    .change-chart{
+      color: darkgoldenrod;
+      font-weight: bold;
+      display: inline-block;
+      margin: 10px;
+      cursor: pointer;
+      border: 1px solid brown;
+      padding: 0 15px;
+      line-height: 20px;
+    }
+  }
+}
